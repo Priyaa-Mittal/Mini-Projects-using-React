@@ -1,0 +1,47 @@
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://raw.githubusercontent.com/adrianhajdin/advice_app/master/src/images/city.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 1));
+    background-size: cover;
+    height: 565px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card {
+    background-color: rgb(228, 223, 223);
+    width: 33%;
+    height: 28%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0);
+    justify-content: center;
+    text-align: center
+}
+
+.title {
+    color: black;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: bold
+}
+
+button {
+    color: blue;
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+    outline: none;
+    border: 2px solid blue;
+    justify-content: center;
+    /* margin-left: 155px; */
+}
+
+
+@media only screen and (max-width:600px) {
+    .card {
+        width: 70%;
+        height: 30%
+    }
+}
