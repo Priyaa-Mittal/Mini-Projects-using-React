@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+
+<body>
+    <h1 id="heading">Stopwatch</h1>
+    <div class="flex main">
+        <div id="hour">00</div>
+        <div> Hr &nbsp </div>
+        <div id="min">00 </div>
+        <div> Min &nbsp</div>
+        <div id="sec">00 </div>
+        <div> Sec &nbsp</div>
+        <div id="count">00</div>
+    </div>
+    <div class="flex down">
+        <button class="start" onclick="start()">Start</button>
+        <button class="stop" onclick="stop()">Stop</button>
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="stopwatch.js" charset="utf-8"></script>
+</body>
+
+</html>
